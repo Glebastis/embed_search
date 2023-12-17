@@ -3,6 +3,7 @@ import numpy as np
 import networkx as nx
 from random import random, randint
 from math import floor, log
+
 np.random.seed(44)
 
 def nearest_neigbor(vec_pos,query_vec):
